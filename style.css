@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    user-select: none;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+
+#container {
+    height: 50%;
+    width: fit-content;
+    padding: 2%;
+    border-radius: 5px;
+    background: cornflowerblue;
+    display: grid;
+    place-content: center;
+}
+
+#count {
+    width: 100%;
+    text-align: center;
+    padding: 5% 1%;
+}
+
+#number {
+    font-size: 5vh;
+}
+
+#buttons {
+    text-align: center;
+    width: 100%;
+}
+
+button {
+    height: fit-content;
+    width: fit-content;
+    padding: 1% 2%;
+    border-radius: 5px;
+    font-size: 2.5vh;
+    border: 1px solid white;
+    color: white;
+}
+#Add{
+    background: #0afb3a;
+}
+#Dec{
+    background: #ff2400;
+}
+#reset{
+    background: #000;
+}
